@@ -118,3 +118,59 @@ section {
   line-height: 24px;
   background: url('img/plus%20icon.svg') 0px 5px no-repeat;
 }
+
+/*Блок Скриншотов*/
+.scrinshots h2 {
+  text-align: center;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.scrinshots article {
+  width: 590px;
+  float: left;
+  margin-top: 35px;
+}
+
+.scrinshots img {
+  float: left;
+  margin: 0 15px 30px 0;
+}
+
+.scrinshots h3 {
+  color: #445161;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+.scrinshots p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-right: 15px;
+}
+
+/*Блок Отзывы*/
+.reverws {
+}
+.reverws h2 {
+}
+.reverws h2 img {
+}
+.reverws h2 blockquote {
+}
+.reverws h2 span {
+}
+.reverws div {
+}
+.reverws div img {
+}
+.reverws div blockquote {
+}
+.reverws div span {
+}
