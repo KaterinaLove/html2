@@ -20,14 +20,9 @@ h1 {
   font-weight: 400;
 }
 
-header nav {}
-
 header ul {
   margin: 0 0 0 45px;
    list-style-image: url(img/check%20icon.svg);
-}
-
-header li {
 }
 
 header a {
