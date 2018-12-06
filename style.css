@@ -215,8 +215,6 @@ section {
 }
 
 /*Блок покупай сейчас*/
-.buyitnow {}
-
 .buyitnow h2 {
   color: #445161;
   font-size: 30px;
@@ -226,16 +224,19 @@ section {
 }
 
 .box_buy {
-  width: 1200px;
-    display: flex;
-  flex-wrap: nowrap;
+  display: flex;
+  align-items: flex-end;
   justify-content: space-around;
-  
 }
 
 .buy {
   width: 300px;
   background-color: #425062;
+  margin: 20px;
+  border: solid;
+  border-width: 2px;
+  border-color: #425062;
+  border-radius: 5px;
 }
 
 .buyitnow h4 {
@@ -244,17 +245,18 @@ section {
   font-weight: 400;
   line-height: 30px;
   text-align: center;
+  padding: 10px;
 }
 
 .buyitnow p {
   color: #445162;
+  background-color: #ffffff;
   font-size: 40px;
   font-weight: 400;
   line-height: 30px;
   text-align: center;
+  padding: 18px;
 }
-
-.buyitnow ol {}
 
 .buyitnow li {
   color: #ffffff;
@@ -269,4 +271,11 @@ section {
   font-weight: 700;
   line-height: 18px;
   text-align: center;
+  padding: 10px 110px;
+  margin: 0 20px 15px;
+  background-color: #fff;
+  border: solid;
+  border-width: 2px;
+  border-color: #425062;
+  border-radius: 5px;
 }
