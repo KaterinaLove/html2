@@ -4,32 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Gray layout</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="normaliz.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
     <nav>
-      <h1>Product name </h1>
+      <span>Product name </span>
       <ul>
         <li><a href="#">Put on this page information about your product</a></li>
         <li><a href="#">A detailed description of your product</a></li>
         <li><a href="#">Tell us about the advantages and merits</a></li>
         <li><a href="#">Associate the page with the payment</a></li>
-
       </ul>
     </nav>
-    <figure><img src="img/Shape%209.png" alt="Product name"></figure>
+    <img src="img/Shape%209.png" alt="Product name" width="469" height="214">
   </header>
   <main>
     <section class="aboutpr">
       <div>
-        <h2>About your product</h2>
+        <span>About your product</span>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sequi consequatur, quibusdam neque nulla ipsum. Ab officia officiis, quos cumque autem est, minima nobis maxime mollitia aliquid omnis tempore aperiam odio quo quas id explicabo neque quae vitae, sequi laudantium nulla!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum odio eveniet similique, maxime beatae eligendi sit facilis, dolore aspernatur consectetur necessitatibus dolor incidunt aperiam, iste totam blanditiis. Expedita, quibusdam.</p>
       </div>
-      <div><img src="img/video.png" alt="Product Description"></div>
+      <video width="1220" height="245" controls="controls" poster="video/duel.jpg">
+        <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+        <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
+        Элемент video не поддерживается вашим браузером.
+      </video>
     </section>
 
     <section class="dignitypr">
