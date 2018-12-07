@@ -191,6 +191,7 @@ section {
   margin-left: 30px;
   position: relative;
   /*Для блока треугольник*/
+  border-radius: 5px;
 }
 
 .reverws blockquote {
@@ -214,7 +215,6 @@ section {
   height: 0;
   border-top: 15px solid transparent;
   border-right: 15px solid #ececec;
-  ;
   border-bottom: 15px solid transparent;
   display: inline;
   position: absolute;
