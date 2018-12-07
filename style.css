@@ -78,16 +78,17 @@ section {
   line-height: 24px;
   margin: 20px 90px 0 0;
 }
+
 /*Блок плюсы продукта*/
 .dignitypr {
   background-color: #f5f5f5;
 }
 
-.dignitypr h2 {
+.heading {
   color: #445161;
   font-size: 30px;
   font-weight: 400;
-  line-height: 36px;
+  display: block;
   text-align: center;
 }
 
@@ -98,7 +99,7 @@ section {
 
 .dignitypr ul {
   list-style-type: none;
-  padding: 0;
+  padding: 7px 0 0 0;
 }
 
 .dignitypr ul li {
@@ -113,36 +114,27 @@ section {
 }
 
 /*Блок Скриншотов*/
-.scrinshots h2 {
-  text-align: center;
-  color: #445161;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-}
-
 .scrinshots div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.scrinshots article {
+.scrinshots figure {
   width: 590px;
-  /*  float: left;*/
-  margin-top: 35px;
+  margin: 30px 0 0;
+  display: flex;
+  justify-content: center;
 }
 
 .scrinshots img {
-  float: left;
-  margin: 0 15px 30px 0;
+  margin-right: 15px;
 }
 
-.scrinshots h3 {
+.scrinshots span {
   color: #445161;
   font-size: 24px;
   font-weight: 400;
-  line-height: 30px;
   padding-bottom: 10px;
 }
 
@@ -157,15 +149,6 @@ section {
 /*Блок Отзывы*/
 .reverws {
   background-color: #f5f5f5;
-}
-
-.reverws h2 {
-  margin-bottom: 20px;
-  color: #445161;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-  text-align: center;
 }
 
 .reverws .users {
@@ -198,7 +181,7 @@ section {
   background: url('img/bg%20review.svg') 0px 5px;
 }
 
-.reverws span {
+.reverws div span {
   color: #989898;
   font-size: 14px;
   font-weight: 400;
