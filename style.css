@@ -19,6 +19,10 @@ header {
   padding: 50px;
 }
 
+nav {
+  width: 55%;
+}
+
 nav span {
   font-size: 60px;
   font-weight: 400;
@@ -157,37 +161,65 @@ section {
   justify-content: center;
 }
 
-.reverws .user_reverw {
+.reverws article {
   width: 590px;
   display: flex;
-  flex-wrap: wrap;
+  margin-top: 25px;
 }
 
+/*
 .reverws img {
   height: 75px;
   width: 75px;
   padding-top: 5px;
   padding-right: 10px;
 }
+*/
+
+.user {
+  width: 75px;
+  height: 75px;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  background-color: #445161;
+}
+
+.blockquote {
+  background-color: #ececec;
+  padding: 15px;
+  margin-left: 30px;
+  position: relative;
+  /*Для блока треугольник*/
+}
 
 .reverws blockquote {
   width: 440px;
-  margin: 0 0 24px 0;
-  padding: 20px 0 40px 25px;
+  margin: 0;
   color: #333333;
   font-size: 14px;
   font-style: italic;
   line-height: 18px;
-  background: url('img/bg%20review.svg') 0px 5px;
 }
 
-.reverws div span {
+.blockquote span {
   color: #989898;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
-  margin-left: 120px;
-  margin-top: -55px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #ececec;
+  ;
+  border-bottom: 15px solid transparent;
+  display: inline;
+  position: absolute;
+  top: 15px;
+  left: -15px;
 }
 
 /*Блок покупай сейчас*/
