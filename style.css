@@ -289,3 +289,42 @@ section {
 .buyitnow a:active {
   color: #fff;
 }
+
+/*подвал сайта*/
+footer {
+  width: 1180px;
+  background-color: #445162;
+  color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+footer .heading {
+  color: #fff;
+  width: 1080px;
+}
+
+footer form {
+  width: 500px;
+}
+
+footer input {
+  width: 500px;
+}
+
+footer textarea {}
+
+footer address {}
+
+footer .address {}
+
+footer .address a {}
+
+footer .masenjer {}
+
+footer .masenjer a {}
+
+footer p {}
