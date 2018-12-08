@@ -275,11 +275,11 @@ section {
   font-weight: 700;
   line-height: 18px;
   text-align: center;
-  padding: 10px;
-  margin: 0 20px 15px;
   background-color: #fff;
   border-radius: 5px;
   text-transform: uppercase;
+  padding: 10px;
+  margin: 0 20px 15px;
 }
 
 .buyitnow a:hover {
@@ -289,3 +289,95 @@ section {
 .buyitnow a:active {
   color: #fff;
 }
+
+/*подвал сайта*/
+footer {
+  width: 1180px;
+  background-color: #445162;
+  color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+footer .heading {
+  color: #fff;
+  width: 1080px;
+}
+
+footer form {
+  width: 500px;
+}
+
+footer form input {}
+
+footer .field_to_fill {
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  padding: 14px 10px;
+  margin: 20px;
+}
+
+.field_to_fill input {
+  width: 435px;
+  border-width: 0px;
+  text-indent: 90px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #445162;
+  outline: none;
+}
+
+footer input[type="submit"] {
+  color: #445162;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 14px 48px;
+}
+
+footer textarea {
+  width: 435px;
+  height: 170px;
+  text-indent: 110px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #445162;
+  border: none;
+  resize: none;
+  padding: 0 10px 10px 0;
+}
+
+footer textarea:focus {
+  outline: none;
+}
+
+footer label {
+  position: absolute;
+}
+
+footer address {}
+
+footer .address {}
+
+footer .address a {}
+
+footer .masenjer {}
+
+footer .masenjer a {}
+
+footer p {}
