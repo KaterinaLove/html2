@@ -49,8 +49,13 @@ header a:visited {
 }
 
 header a:active {
-  color: #989898;
+  color: #ececec;
+  text-decoration: underline;
   /* Цвет активных ссылок */
+}
+
+header a:hover {
+  color: #989898;
 }
 
 /*основной блок*/
@@ -223,14 +228,6 @@ section {
 }
 
 /*Блок покупай сейчас*/
-.buyitnow h2 {
-  color: #445161;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-  text-align: center;
-}
-
 .box_buy {
   display: flex;
   align-items: flex-end;
@@ -247,13 +244,10 @@ section {
   border-radius: 5px;
 }
 
-.buyitnow h4 {
+.buy span {
   color: #ffffff;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: center;
   padding: 10px;
+  font-size: 24px;
 }
 
 .buyitnow p {
@@ -271,19 +265,27 @@ section {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
+  padding-right: 15px;
 }
 
-.buyitnow button {
+.buyitnow a {
   color: #445161;
+  display: block;
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
   text-align: center;
-  padding: 10px 110px;
+  padding: 10px;
   margin: 0 20px 15px;
   background-color: #fff;
-  border: solid;
-  border-width: 2px;
-  border-color: #425062;
   border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.buyitnow a:hover {
+  background-color: #989898;
+}
+
+.buyitnow a:active {
+  color: #fff;
 }
