@@ -136,6 +136,10 @@ section {
   justify-content: center;
 }
 
+figcaption {
+  width: 375px;
+}
+
 .scrinshots img {
   margin-right: 15px;
 }
