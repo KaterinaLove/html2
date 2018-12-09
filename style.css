@@ -309,14 +309,94 @@ footer .heading {
 
 footer form {
   width: 500px;
+  padding-top: 30px;
 }
 
-footer input {
-  width: 500px;
+footer input[type="text"],
+footer input[type="email"] {
+  width: 480px;
+  border: none;
+  border-radius: 5px;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 8px;
+  margin-bottom: 21px;
+  outline: none;
 }
 
-footer textarea {}
+input[type="text"]::-webkit-input-placeholder {
+  color: #445162;
+}
 
+input[type="text"]:-ms-input-placeholder {
+  color: #445162;
+}
+
+input[type="text"]::-ms-input-placeholder {
+  color: #445162;
+}
+
+input[type="text"]::placeholder {
+  color: #445162;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+  color: #445162;
+}
+
+input[type="email"]:-ms-input-placeholder {
+  color: #445162;
+}
+
+input[type="email"]::-ms-input-placeholder {
+  color: #445162;
+}
+
+input[type="email"]::placeholder {
+  color: #445162;
+}
+
+footer textarea {
+  width: 480px;
+  height: 155px;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  padding: 8px;
+  margin-bottom: 17px;
+  outline: none;
+}
+footer textarea::-webkit-input-placeholder { color: #445162; }
+footer textarea:-ms-input-placeholder { color: #445162; }
+footer textarea::-ms-input-placeholder { color: #445162; }
+footer textarea::placeholder { color: #445162; } 
+
+footer input[type="submit"] {
+  color: #445162;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 8px 48px;
+  outline: none;
+}
+footer input[type="submit"]:hover {
+  background-color: #989898;
+}
+footer input[type="submit"]:active {
+  color: #fff;
+}
 footer address {}
 
 footer .address {}
