@@ -291,6 +291,7 @@ section {
 }
 
 /*подвал сайта*/
+/*форма для сообщений*/
 footer {
   width: 1180px;
   background-color: #445162;
@@ -372,10 +373,22 @@ footer textarea {
   margin-bottom: 17px;
   outline: none;
 }
-footer textarea::-webkit-input-placeholder { color: #445162; }
-footer textarea:-ms-input-placeholder { color: #445162; }
-footer textarea::-ms-input-placeholder { color: #445162; }
-footer textarea::placeholder { color: #445162; } 
+
+footer textarea::-webkit-input-placeholder {
+  color: #445162;
+}
+
+footer textarea:-ms-input-placeholder {
+  color: #445162;
+}
+
+footer textarea::-ms-input-placeholder {
+  color: #445162;
+}
+
+footer textarea::placeholder {
+  color: #445162;
+}
 
 footer input[type="submit"] {
   color: #445162;
@@ -391,20 +404,61 @@ footer input[type="submit"] {
   padding: 8px 48px;
   outline: none;
 }
+
 footer input[type="submit"]:hover {
   background-color: #989898;
 }
+
 footer input[type="submit"]:active {
   color: #fff;
 }
-footer address {}
 
-footer .address {}
+/*контактные данные*/
+footer address {
+  width: 250px;
+  padding-top: 30px;
+}
 
-footer .address a {}
+.address a {
+  background-repeat: no-repeat;
+  display: block;
+  word-break: break-all;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  font-style: normal;
+  margin-bottom: 18px;
+  padding: 0 0 3px 30px;
+}
 
-footer .masenjer {}
+.address a:visited {
+  color: #ffffff;
+}
 
-footer .masenjer a {}
+.address a:active {
+  color: #ececec;
+  text-decoration: underline;
+}
 
-footer p {}
+.address a:hover {
+  color: #989898;
+}
+
+#icon_skype {
+  background-image: url(img/skype%20icon.svg);
+}
+
+#icon_icq {
+  background-image: url(img/icq%20icon.svg);
+}
+
+#icon_email {
+  background-image: url(img/email%20icon.png);
+}
+
+#icon_phone {
+  background-image: url(img/phone%20icon.svg);
+}
+
