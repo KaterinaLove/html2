@@ -132,14 +132,14 @@ section {
 }
 
 .scrinshots figure {
-  width: 590px;
+  width: 50%;
   margin: 30px 0 0;
   display: flex;
   justify-content: center;
 }
 
 figcaption {
-  width: 375px;
+  width: 63.5%;
 }
 
 .scrinshots img {
@@ -173,7 +173,7 @@ figcaption {
 }
 
 .reverws article {
-  width: 590px;
+  width: 50%;
   display: flex;
   margin-top: 25px;
 }
@@ -228,11 +228,11 @@ figcaption {
 .buy {
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .buy-child {
-  width: 300px;
+  width: 25%;
   background-color: #425062;
   margin: 20px;
   border: solid;
@@ -259,12 +259,34 @@ figcaption {
   padding: 18px;
 }
 
+.buyitnow ol {
+  counter-reset: li;
+  /* Инициализируем счетчик */
+  padding: 0;
+  /* Удаляем  установленное по умолчанию левое поле*/
+  list-style: none;
+  /* Отменяем нумерацию установленную по умолчанию */
+}
+
 .buyitnow li {
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  padding-right: 15px;
+  position: relative;
+  /* Создаем контекст для позиционирования элементов */
+  margin: 0 0 0 37px;
+  /* Даем каждому элементу списка отступ слева, что бы освободить пространство для нумерации */
+}
+
+.buyitnow li:before {
+  content: counter(li) '. ';
+  /* В качестве данных используем счетчик */
+  counter-increment: li;
+  /* Увеличиваем значение счетчика на 1 */
+  position: absolute;
+  top: 0px;
+  left: -20px;
 }
 
 .buyitnow a {
@@ -274,12 +296,12 @@ figcaption {
   font-weight: 700;
   line-height: 18px;
   text-align: center;
-  padding: 10px;
-  margin: 0 20px 15px;
   background-color: #fff;
   border-radius: 5px;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 10px;
+  margin: 0 20px 15px;
 }
 
 .buyitnow a:hover {
@@ -303,18 +325,18 @@ main footer {
 
 footer .heading {
   color: #fff;
-  width: 1080px;
+  width: 100%;
 }
 
 footer form {
-  width: 500px;
+  width: 42%;
   padding-top: 30px;
   margin-right: 45px;
 }
 
 footer input[type="text"],
 footer input[type="email"] {
-  width: 480px;
+  width: 97%;
   border: none;
   border-radius: 5px;
   color: #445162;
@@ -359,7 +381,7 @@ input[type="email"]::placeholder {
 }
 
 footer textarea {
-  width: 480px;
+  width: 97%;
   height: 155px;
   color: #445162;
   font-size: 16px;
