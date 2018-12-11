@@ -10,16 +10,16 @@
 
 <body>
   <header>
-    <nav>
-      <span>Product name </span>
-      <ul>
-        <li><a href="#">Put on this page information about your product</a></li>
-        <li><a href="#">A detailed description of your product</a></li>
-        <li><a href="#">Tell us about the advantages and merits</a></li>
-        <li><a href="#">Associate the page with the payment</a></li>
-      </ul>
-    </nav>
-    <img src="img/Shape%209.png" alt="Product name" width="469" height="214">
+    <div class="header">
+      <span>Product name</span>
+      <nav>
+        <a href="#">Put on this page information about your product</a>
+        <a href="#">A detailed description of your product</a>
+        <a href="#">Tell us about the advantages and merits</a>
+        <a href="#">Associate the page with the payment</a>
+      </nav>
+    </div>
+    <img src="img/Shape-9.png" alt="Product name" width="469" height="214">
   </header>
   <main>
     <section class="aboutpr">
@@ -127,21 +127,21 @@
 
     <section class="buyitnow">
       <span class="heading">Buy it now</span>
-      <div class="box_buy">
-        <div class="buy">
-          <span class="heading">Standart</span>
-          <p>$100</p>
+      <div class="buy">
+        <div class="buy-child">
+          <span class="buy-child-heading heading">Standart</span>
+          <span class="buy-child-price">$100</span>
           <ol>
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
           </ol>
-          <a>BUY</a>
+          <a href="#">buy</a>
         </div>
-        <div class="buy">
-          <span class="heading">Premium</span>
-          <p>$150</p>
+        <div class="buy-child">
+          <span class="buy-child-heading heading">Premium</span>
+          <span class="buy-child-price">$150</span>
           <ol>
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
@@ -152,11 +152,11 @@
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
           </ol>
-          <a>BUY</a>
+          <a href="#">buy</a>
         </div>
-        <div class="buy">
-          <span class="heading">Lux</span>
-          <p>$200</p>
+        <div class="buy-child">
+          <span class="buy-child-heading heading">Lux</span>
+          <span class="buy-child-price">$200</span>
           <ol>
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
@@ -171,13 +171,13 @@
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
           </ol>
-          <a>BUy</a>
+          <a href="#">buy</a>
         </div>
       </div>
     </section>
 
     <footer>
-      <p class="heading">Contacts</p>
+      <span class="heading">Contacts</span>
 
       <form action="#">
         <input type="text" name="name" placeholder="Your name:" autocomplete="off">

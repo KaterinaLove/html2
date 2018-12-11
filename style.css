@@ -19,21 +19,22 @@ header {
   padding: 50px;
 }
 
-nav {
+.header {
   width: 55%;
 }
 
-nav span {
+header span {
   font-size: 60px;
   font-weight: 400;
 }
 
-header ul {
-  list-style-image: url(img/check%20icon.svg);
-  margin-bottom: 0;
+nav {
+  margin-top: 30px;
 }
 
 header a {
+  background: url('img/check-icon.svg') 0px 5px no-repeat;
+  display: block;
   font-size: 20px;
   font-weight: 400;
   line-height: 36px;
@@ -41,6 +42,7 @@ header a {
   /*убрать линию ссылки*/
   color: #ffffff;
   /* Цвет ссылок */
+  padding-left: 43px;
 }
 
 header a:visited {
@@ -119,7 +121,7 @@ section {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  background: url('img/plus%20icon.svg') 0px 5px no-repeat;
+  background: url('img/plus-icon.svg') 0px 5px no-repeat;
 }
 
 /*Блок Скриншотов*/
@@ -223,13 +225,13 @@ figcaption {
 }
 
 /*Блок покупай сейчас*/
-.box_buy {
+.buy {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
 }
 
-.buy {
+.buy-child {
   width: 300px;
   background-color: #425062;
   margin: 20px;
@@ -239,19 +241,21 @@ figcaption {
   border-radius: 5px;
 }
 
-.buy span {
+.buy-child-heading {
   color: #ffffff;
   padding: 10px;
   font-size: 24px;
+  display: block;
 }
 
-.buyitnow p {
+.buy-child-price {
   color: #445162;
   background-color: #ffffff;
   font-size: 40px;
   font-weight: 400;
   line-height: 30px;
   text-align: center;
+  display: block;
   padding: 18px;
 }
 
@@ -275,6 +279,7 @@ figcaption {
   background-color: #fff;
   border-radius: 5px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .buyitnow a:hover {
@@ -423,7 +428,7 @@ footer address {
   line-height: 24px;
   text-decoration: none;
   font-style: normal;
-  text-align:left;
+  text-align: left;
   margin-bottom: 18px;
   padding: 0 0 3px 30px;
 }
@@ -442,19 +447,19 @@ footer address {
 }
 
 #icon_skype {
-  background-image: url(img/skype%20icon.svg);
+  background-image: url(img/skype-icon.svg);
 }
 
 #icon_icq {
-  background-image: url(img/icq%20icon.svg);
+  background-image: url(img/icq-icon.svg);
 }
 
 #icon_email {
-  background-image: url(img/email%20icon.png);
+  background-image: url(img/email-icon.png);
 }
 
 #icon_phone {
-  background-image: url(img/phone%20icon.svg);
+  background-image: url(img/phone-icon.svg);
 }
 
 /*класс месенджеры*/
@@ -470,23 +475,23 @@ footer address {
 }
 
 #icon_twitter {
-  background-image: url(img/icon_twitter.png);
+  background-image: url(img/icon-twitter.png);
 }
 
 #icon_facebook {
-  background-image: url(img/icon_facebook.png);
+  background-image: url(img/icon-facebook.png);
 }
 
 #icon_instagram {
-  background-image: url(img/icon_instagram.png);
+  background-image: url(img/icon-instagram.png);
 }
 
 #icon_google {
-  background-image: url(img/icon_google.png);
+  background-image: url(img/icon-google.png);
 }
 
 #icon_youtube {
-  background-image: url(img/icon_youtube.png);
+  background-image: url(img/icon-youtube.png);
 }
 
 footer {
