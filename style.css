@@ -1,5 +1,8 @@
 body {
+  min-height: 100vh;
   font-family: Arial;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -64,6 +67,7 @@ header a:hover {
 main {
   width: 1280px;
   margin: 0 auto;
+  flex-grow: 1;
 }
 
 section {
